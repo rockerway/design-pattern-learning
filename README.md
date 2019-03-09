@@ -1,2 +1,299 @@
 # design-pattern-learning
+
 Learning design patterns with golang, node.js, python...
+
+## Menu
+
+* [Languages](#languages)
+* [Design Patterns](#design-patterns)
+    - [Creational patterns](#creational-patterns)
+    - [Structural patterns](#structural-patterns)
+    - [Behavioral patterns](#behavioral-patterns)
+    - [Concurrency patterns](#concurrency-patterns)
+
+## Languages
+
+- Go
+- Node.js
+- Python
+- TypeScript (need to learn...)
+
+## Design Patterns
+
+### Creational patterns
+
+- Abstract factory
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Builder
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Dependency Injection
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Factory method
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Lazy initialization
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Multiton
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Object pool
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Prototype
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Resource acquisition is initialization (RAII)
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Singleton
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+
+### Structural patterns
+
+- Adapter, Wrapper, or Translator
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Bridge
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Composite
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Decorator
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Extension object
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Facade
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Flyweight
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Front controller
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Marker
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Module
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Proxy
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Twin
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+
+### Behavioral patterns
+
+- Blackboard
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Chain of responsibility
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Command
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Interpreter
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Iterator
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Mediator
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Memento
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Null object
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Observer or Publish/subscribe
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Servant
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Specification
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- State
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Strategy
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Template method
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Visitor
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+
+### Concurrency patterns
+
+- Active Object
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Balking
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Binding properties
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Compute kernel
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Double-checked locking
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Event-based asynchronous
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Guarded suspension
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Join
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Lock
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Messaging design pattern (MDP)
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Monitor object
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Reactor
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Read-write lock
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Scheduler
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Thread pool
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+- Thread-specific storage
+    - [ ] Go
+    - [ ] Node.js
+    - [ ] Python
+    - [ ] TypeScript
+
