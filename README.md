@@ -7,6 +7,11 @@ Learning design patterns with golang, node.js, python...
 - [design-pattern-learning](#design-pattern-learning)
   - [Menu](#menu)
   - [Languages](#languages)
+  - [Start up](#start-up)
+    - [Go](#go)
+    - [Node JS](#node-js)
+    - [Python](#python)
+    - [TypeScript](#typescript)
   - [Design Patterns](#design-patterns)
     - [Creational patterns](#creational-patterns)
       - [Abstract factory](#abstract-factory)
@@ -72,6 +77,33 @@ Learning design patterns with golang, node.js, python...
 - Node.js
 - Python
 - TypeScript (need to learn...)
+
+## Start up
+
+develop code base on docker, so you need to install [Docker](https://docker) first.
+
+### Go
+
+1. change workdir to `go`
+2. run command `./dev`
+
+### Node JS
+
+1. change workdir to `nodejs`
+2. build docker image `docker build -t design-pattern:node .`
+3. run command `./dev`
+
+### Python
+
+1. change workdir to `python`
+2. build docker image `docker build -t design-pattern:python .`
+3. run command `./dev`
+
+### TypeScript
+
+1. change workdir to `typescript`
+2. build docker image `docker build -t design-pattern:typescript .`
+3. run command `./dev`
 
 ## Design Patterns
 
