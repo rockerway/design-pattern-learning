@@ -1,0 +1,5 @@
+#!/bin/sh
+
+docker run --rm -it \
+-v ${PWD}/src:/app \
+design-pattern:typescript
