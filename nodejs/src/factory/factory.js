@@ -4,8 +4,8 @@ function BBQFactory(foodName) {
   return new Food.bbq(foodName);
 }
 
-function SoapFactory(foodName) {
-  return new Food.soap(foodName);
+function StewFactory(foodName) {
+  return new Food.stew(foodName);
 }
 
 function DrinkFactory(foodName) {
@@ -14,7 +14,7 @@ function DrinkFactory(foodName) {
 
 module.exports = {
   BBQFactory,
-  SoapFactory,
+  StewFactory,
   DrinkFactory,
 };
 

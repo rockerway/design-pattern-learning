@@ -8,7 +8,7 @@ class BBQ {
   }
 }
 
-class Soap {
+class Stew {
   constructor(foodName) {
     this.name = foodName;
   }
@@ -30,7 +30,7 @@ class Drink {
 
 module.exports = {
   bbq: BBQ,
-  soap: Soap,
+  stew: Stew,
   drink: Drink
 };
 
