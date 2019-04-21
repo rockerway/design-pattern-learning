@@ -114,6 +114,8 @@ develop code base on docker, so you need to install [Docker](https://docker) fir
 
 `Abstract factory` pattern 是 [Factory method](#factory-method) 的延伸應用，既然創建 class 需要用到 `factory` pattern，那麼取得 factory 是不是也可以抽象出一個 factory 來創建呢? 所以 `Abstract factory` 亦被稱為 `工廠的工廠`，這時又會遇見 `simple factory` 提到 OO 的 Open-Closed Principle，這時部分 Language 可以使用 reflect 這個技巧，如果存在這個 factory 就將他給創建出來。
 
+##### User case
+
 #### Builder
 
 #### Dependency injection
@@ -125,6 +127,32 @@ develop code base on docker, so you need to install [Docker](https://docker) fir
 ##### User case
 
 使用 `factory method` 建立食物烹煮工廠，讓廚師可以製作出飲料、烤物、燉煮類食物。
+
+```UML
+  ┌────────────────────────┐
+  │ Factory                │
+  ├────────────────────────┤←───────────────────────┐
+  ├────────────────────────┤                        │ Inheritance
+  └────────────────────────┘                        │
+                                                    │
+               ┌────────────────────────────────────┼────────────────────────────────┐
+  ┌──────────────────────────────┐  ┌──────────────────────────────┐  ┌──────────────────────────────┐
+  │ BBQFactory                   │  │ StewFactory                  │  │ DrinkFactory                 │
+  ├──────────────────────────────┤  ├──────────────────────────────┤  ├──────────────────────────────┤
+  │+ constructor(foodName): void │  │+ constructor(foodName): void │  │+ constructor(foodName): void │
+  └──────────────────────────────┘  └──────────────────────────────┘  └──────────────────────────────┘
+               ├ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┴ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┘
+               ↓                          Dependency
+  ┌──────────────────────────────┐
+  │ Food                         │
+  ├──────────────────────────────┤
+  │- name                        │
+  ├──────────────────────────────┤
+  │+ constructor(foodName): void │
+  │+ getName(): String           │
+  └──────────────────────────────┘
+
+```
 
 #### Lazy initialization
 
@@ -229,3 +257,7 @@ develop code base on docker, so you need to install [Docker](https://docker) fir
 #### Thread pool
 
 #### Thread-specific storage
+
+## Use draw symbol
+
+> ┼ ┴ ┬ ┤ ├ ─ │ ┌ ┐ └ ┘
