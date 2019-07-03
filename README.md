@@ -15,10 +15,11 @@ Learning design patterns with golang, node.js, python...
   - [Design Patterns](#design-patterns)
     - [Creational patterns](#creational-patterns)
       - [Abstract factory](#abstract-factory)
+        - [User case](#abstract-factory-user-case)
       - [Builder](#builder)
       - [Dependency injection](#dependency-injection)
       - [Factory method](#factory-method)
-        - [User case](#user-case)
+        - [User case](#factory-method-user-case)
       - [Lazy initialization](#lazy-initialization)
       - [Multiton](#multiton)
       - [Object pool](#object-pool)
@@ -114,7 +115,7 @@ develop code base on docker, so you need to install [Docker](https://docker) fir
 
 `Abstract factory` pattern 是 [Factory method](#factory-method) 的延伸應用，既然創建 class 需要用到 `factory` pattern，那麼取得 factory 是不是也可以抽象出一個 factory 來創建呢? 所以 `Abstract factory` 亦被稱為 `工廠的工廠`，這時又會遇見 `simple factory` 提到 OO 的 Open-Closed Principle，這時部分 Language 可以使用 reflect 這個技巧，如果存在這個 factory 就將他給創建出來。
 
-##### User case
+##### Abstract factory User case
 
 使用 `abstract factory` 建立食物烹煮工廠，讓廚師可以製作出飲料、烤物、燉煮類食物。
 
@@ -174,7 +175,7 @@ develop code base on docker, so you need to install [Docker](https://docker) fir
 
 `Factory` pattern 將實體化 class 這個動作封裝成另一個 factory class，專門 new 這些 class，可以使用傳入參數決定要創建哪個實例，在 `simple factory` 使用 condition 決定要創建哪個實例，但若要添加或刪減創建 class 的種類，需要更動 condition，違反了 OO 的 Open-Closed Principle，為了解決 `simple factory` 的耦合問題，`factory method` 將每個要創建的實例都設立一個 factory class，創建實例時只需使用相對應得 factory 來執行創建。
 
-##### User case
+##### Factory method User case
 
 使用 `factory method` 建立食物烹煮工廠，讓廚師可以製作出飲料、烤物、燉煮類食物。
 
